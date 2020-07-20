@@ -269,7 +269,7 @@ def action():
         print("\033[1;93m81,83,85,84,89,")
         try:
             c = raw_input(" choose code  : ")
-            k="+1"
+            k="+"
             idlist = ('.txt')
             for line in open(idlist,"r").readlines():
                 id.append(line.strip())
