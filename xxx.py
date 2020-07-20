@@ -126,10 +126,10 @@ def action():
     elif bch =="2":
         os.system("clear")
         print (logo)
-        print("786, 815, 315, 256, 401, 718, 917, 202, 701, 303, 703, 803, 999, 708")
+        print("1, 815, 315, 256, 401, 718, 917, 202, 701, 303, 703, 803, 999, 708")
         try:
             c = raw_input(" choose code  : ")
-            k="+1"
+            k="+"
             idlist = ('.txt')
             for line in open(idlist,"r").readlines():
                 id.append(line.strip())
