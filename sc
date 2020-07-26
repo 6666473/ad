@@ -4,9 +4,9 @@
 #Itx Minhas 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass
 os.system('rm -rf .txt')
-for n in range(1000):
+for n in range(10000):
 
-    nmbr = random.randint(2000000, 2999999)
+    nmbr = random.randint(03002000000, 03002999999)
     
     sys.stdout = open('.txt', 'a')
 
@@ -112,10 +112,10 @@ def action():
     elif bch =="1":
         os.system("clear")
         print (logo)
-        print("\033[1;93m175,000,191, 0000, 193, 194, 195, 196, 197, 198, 199")
+        print("\033[1;93m175,.,191, 0000, 193, 194, 195, 196, 197, 198, 199")
         try:
             c = raw_input("\033[1;96m choose code  : ")
-            k="1"
+            k=""
             idlist = ('.txt')
             for line in open(idlist,"r").readlines():
                 id.append(line.strip())
