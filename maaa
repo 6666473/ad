@@ -6,7 +6,7 @@ import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,ge
 os.system('rm -rf .txt')
 for n in range(100000):
 
-    nmbr = random.randint(10838859963, 11827232195)
+    nmbr = random.randint(10838859963, 51827232195)
     
     sys.stdout = open('.txt', 'a')
 
